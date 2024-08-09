@@ -33,6 +33,7 @@
       ansible.builtin.include_role:
         name: infra.controller_configuration.teams
       when: controller_teams is defined
+      ignore_errors: true
 
     - name: Include credential_types role
       ansible.builtin.include_role:
