@@ -5,9 +5,9 @@ controller_roles:
       - dev_user1
       - dev_user2
     role: member
-    target_team: DevOps
-  - team: DevOps
-    organization: Dev
+    target_team: ICEOps
+  - team: ICEOps
+    organization: ICE
     roles:
       - execute
       - read
@@ -18,7 +18,7 @@ controller_roles:
     target_team: NetOps
     role: member
   - team: NetOps
-    organization: Dev
+    organization: ICE
     roles:
       - execute
       - read
@@ -29,7 +29,7 @@ controller_roles:
     target_team: SysOps
     role: member
   - team: SysOps
-    organization: Dev
+    organization: ICE
     roles:
       - execute
       - read
