@@ -121,4 +121,6 @@
         name: infra.controller_configuration.roles
       when: controller_roles is defined
       ignore_errors: yes
+      tags:
+        - never
 ...
