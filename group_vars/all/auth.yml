@@ -2,10 +2,12 @@
 controller_hostname: "{{ controller_host | default(groups['automationcontroller'][0]) }}"
 controller_username: "{{ controller_user | default('admin') }}"
 controller_validate_certs: false
+ah_host: "{{ ah_hostname | default(groups['automationhub'][0]) }}"
 ah_password: "{{ ah_pass }}"
 ah_path_prefix: 'galaxy'  # this is for private automation hub
 ah_validate_certs: false
 
+ah_username: 'admin'
 ee_registry_username: "{{ ah_username }}"
 ee_registry_password: "{{ ah_password }}"
 ee_registry_dest: "{{ ah_host }}"

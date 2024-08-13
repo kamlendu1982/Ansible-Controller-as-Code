@@ -15,6 +15,7 @@ ah_collection_repositories:
     pulp_labels:
       pipeline: "approved"
     distribution:
+      name: "custpoc"
       state: present
     remote: community-infra
 
