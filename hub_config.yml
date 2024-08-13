@@ -17,6 +17,7 @@
     - name: Include collection repository role
       ansible.builtin.include_role:
         name: infra.ah_configuration.collection_repository_sync
+      ignore_errors: true
 
     - name: Include group role
       ansible.builtin.include_role:
