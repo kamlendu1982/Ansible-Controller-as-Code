@@ -6,7 +6,7 @@ all:
         dev_controller:
           hosts:
             controller-cust-ansible-automation-platform.apps.iceargo.sandbox2969.opentlc.com:
-    automationihub:
+    automationhub:
       hosts:
         automation-hub-cust-ansible-automation-platform.apps.iceargo.sandbox2969.opentlc.com:
     automationcontroller:
