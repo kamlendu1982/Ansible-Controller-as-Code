@@ -1,4 +1,4 @@
-name: 'Seed CaC Workflow'
+name: 'Seed CaH Workflow'
 on:
   workflow_dispatch:
 
