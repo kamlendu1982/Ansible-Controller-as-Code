@@ -1,1 +1,1 @@
-pulp-ansibl
+pulp-ansible==0.22.1
