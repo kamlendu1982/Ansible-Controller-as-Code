@@ -5,7 +5,7 @@ all:
       children:
         dev_controller:
           hosts:
-            controller-ice-ansible-automation-platform.apps.iceargo.sandbox2969.opentlc.com:
+            controller-cust-ansible-automation-platform.apps.iceargo.sandbox2969.opentlc.com:
     automationcontroller:
       children:
         dev_controller:
