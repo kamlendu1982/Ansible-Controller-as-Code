@@ -5,7 +5,7 @@ controller_templates:
       - aap_admin
     job_type: run
     inventory: dev_inventory
-    project: Get Controller Stats ICE
+    project: Get Controller Stats Dev
     playbook: getControllerStats.yml
     ask_variables_on_launch: true
     extra_vars:
@@ -16,13 +16,13 @@ controller_templates:
       - Workshop Credential
     job_type: run
     inventory: Workshop Inventory
-    project: Ansible Plays for ICE
+    project: Ansible Plays for Dev
     playbook: copySSHKey.yml
   - name: Dynamic Inventory
     credentials:
       - Workshop Credential
     job_type: run
     inventory: Workshop Inventory
-    project: Ansible Plays for ICE
+    project: Ansible Plays for Dev
     playbook: dynamicInventory.yml
 ...

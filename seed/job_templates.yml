@@ -10,7 +10,7 @@ controller_templates:
     webhook_service: 'github'
     webhook_credential: CaC_seed_pat
 
-  - name: Controller as Code JT ICE
+  - name: Controller as Code JT Dev
     credentials:
       - aap_admin
     job_type: run
